@@ -1,0 +1,22 @@
+.resources {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resources__logo-zone {
+  margin: 80px 0 217px;
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  list-style: none;
+
+
+}
+
+.resources__logo {
+  margin: 0;
+  height: 38px;
+  width: 270px;
+}
