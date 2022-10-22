@@ -2,12 +2,6 @@
 /*  border: red 2px solid ;*/
 /*}*/
 
-.main {
-  background-color: white;
-  font-family: 'Inter', sans-serif;
-  font-weight: normal;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
