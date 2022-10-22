@@ -1,3 +1,5 @@
+@import url(../../rotation/rotation.css);
+
 .kaufman {
   padding-bottom: 90px;
   display: flex;
@@ -5,16 +7,19 @@
   flex-direction: column;
   background-color: #1f1f1f;
   position: relative;
+  overflow: hidden;
 }
 
 .section-title_theme_dark {
   margin: 90px 0 0;
   color: white;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   margin: 20px 0 0;
   color: white;
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -23,4 +28,15 @@
   flex-direction: column;
   color: white;
   width: 200px;
+  z-index: 1;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  height: 877px;
+  width: 877px;
+  right: -210px;
+  z-index: 0;
+  background-size: cover;
+  animation: rotation 20s linear infinite;
 }
