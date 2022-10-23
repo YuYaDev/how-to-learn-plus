@@ -1,8 +1,8 @@
 @import url(__logo/resources__logo.css);
 @import url(__logo-zone/resources__logo-zone.css);
 
-@import url(_padding-bottom/resources_padding-bottom.css);
-@import url(_padding-top/resources_padding-top.css);
+@import url(_padding_pos_bottom/resources_padding_pos_bottom.css);
+@import url(_padding_pos_top/resources_padding_pos_top.css);
 
 
 .resources {

@@ -10,8 +10,8 @@
 @import url(__columns/footer__columns.css);
 @import url(__social-icon/footer__social-icon.css);
 
-@import url(_padding-bottom/footer_padding-bottom.css);
-@import url(_padding-top/footer_padding-top.css);
+@import url(_padding_pos_bottom/footer_padding_pos_bottom.css);
+@import url(_padding_pos_top/footer_padding_pos_top.css);
 
 
 .footer {
@@ -20,4 +20,5 @@
   justify-content: center;
   background-color: #1f1f1f;
   min-height: 350px;
+  box-sizing: border-box;
 }
