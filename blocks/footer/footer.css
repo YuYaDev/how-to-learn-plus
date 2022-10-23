@@ -10,8 +10,12 @@
 @import url(__columns/footer__columns.css);
 @import url(__social-icon/footer__social-icon.css);
 
+@import url(_padding-bottom/footer_padding-bottom.css);
+@import url(_padding-top/footer_padding-top.css);
+
 
 .footer {
+  margin: 0;
   display: flex;
   justify-content: center;
   background-color: #1f1f1f;

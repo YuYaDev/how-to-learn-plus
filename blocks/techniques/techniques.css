@@ -1,16 +1,18 @@
 @import url(../section-title/section-title.css);
 @import url(../section-subtitle/section-subtitle.css);
 
-@import url(cards/cards.css);
-@import url(cards/__description/cards__description.css);
-@import url(cards/__image/cards__image.css);
-@import url(cards/__item/cards__item.css);
-@import url(cards/__description/cards__description.css);
-@import url(cards/__title/cards__title.css);
+@import url(../cards/cards.css);
+@import url(../cards/__description/cards__description.css);
+@import url(../cards/__image/cards__image.css);
+@import url(../cards/__item/cards__item.css);
+@import url(../cards/__description/cards__description.css);
+@import url(../cards/__title/cards__title.css);
+
+@import url(_padding-top/techniques_padding-top.css);
 
 
 .techniques {
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   flex-direction: column;

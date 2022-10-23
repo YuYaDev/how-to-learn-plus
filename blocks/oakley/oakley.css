@@ -1,5 +1,7 @@
+@import url(_padding-top/oakley_padding-top.css);
+
 .oakley {
-  padding: 60px 0 80px;
+  margin: 0;
   display: flex;
   justify-content: center;
   background-color: #f2f2f2;
