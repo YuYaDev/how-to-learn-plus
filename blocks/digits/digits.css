@@ -3,8 +3,8 @@
 @import url(../table/__cell/table__cell.css);
 @import url(../table/__heading/table__heading.css);
 
-@import url(_padding_pos_top/digits_padding_pos_top.css);
-@import url(_padding_pos_bottom/digits_padding_pos_bottom.css);
+@import url(_padding/_top/digits_padding_top.css);
+@import url(_padding/_bottom/digits_padding_bottom.css);
 
 
 .digits {

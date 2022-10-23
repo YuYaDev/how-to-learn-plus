@@ -7,8 +7,8 @@
 
 @import url(__triangle/kaufman__triangle.css);
 
-@import url(_padding_pos_top/kaufman_padding_pos_top.css);
-@import url(_padding_pos_bottom/kaufman_padding_pos_bottom.css);
+@import url(_padding/_top/kaufman_padding_top.css);
+@import url(_padding/_bottom/kaufman_padding_bottom.css);
 
 
 .kaufman {

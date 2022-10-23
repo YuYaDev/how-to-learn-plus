@@ -8,7 +8,7 @@
 @import url(../cards/__description/cards__description.css);
 @import url(../cards/__title/cards__title.css);
 
-@import url(_padding_pos_top/techniques_padding_pos_top.css);
+@import url(_padding/_top/techniques_padding_top.css);
 
 
 .techniques {
