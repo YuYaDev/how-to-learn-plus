@@ -1,5 +1,14 @@
 @import url(../rotation/rotation.css);
 
+@import url(../logo/_place_header/logo_place_header.css);
+
+@import url(__title/header__title.css);
+@import url(__link/header__link.css);
+@import url(__main-illustration/header__main-illustration.css);
+@import url(__square-pic/header__square-pic.css);
+@import url(__subtitle/header__subtitle.css);
+
+
 .header {
   display: flex;
   align-items: center;
@@ -9,58 +18,4 @@
   max-height: 756px;
   background-color: #f2f2f2;
   overflow: hidden;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  height: 32px;
-  width: 183px;
-  margin: 0 0 0 64px;
-}
-
-.header__title {
-  width: 730px;
-  line-height: 96px;
-  font-weight: 600;
-  font-size: 102px;
-  margin: 0 0 0 64px;
-  z-index: 2;
-}
-
-.header__subtitle {
-  position: absolute;
-  width: 388px;
-  line-height: 25px;
-  font-weight: normal;
-  font-size: 18px;
-  margin: 0 0 0 64px;
-  bottom: 30px;
-}
-
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
-.header__main-illustration {
-  margin: 0;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 608px;
-  width: 765px;
-  z-index: 1;
-}
-
-.header__square-pic {
-  margin: 0;
-  background-color: #2f80ed;
-  position: absolute;
-  height: 568px;
-  width: 568px;
-  right: 0;
-  top: 64px;
-  z-index: 0;
-  animation: rotation 20s linear infinite;
 }

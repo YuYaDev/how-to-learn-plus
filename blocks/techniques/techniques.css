@@ -1,65 +1,18 @@
+@import url(../section-title/section-title.css);
+@import url(../section-subtitle/section-subtitle.css);
+
+@import url(cards/cards.css);
+@import url(cards/__description/cards__description.css);
+@import url(cards/__image/cards__image.css);
+@import url(cards/__item/cards__item.css);
+@import url(cards/__description/cards__description.css);
+@import url(cards/__title/cards__title.css);
+
+
 .techniques {
   margin: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 80%;
-}
-
-.section-title {
-  margin: 100px 0 20px;
-  text-align: center;
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
-
-.section-subtitle {
-  margin: 0;
-  text-align: center;
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.cards {
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  width: 920px;
-}
-
-.cards__item {
-  margin: 60px 100px 0 0;
-  width: 240px;
-}
-
-.cards__item:nth-child(3) {
-  margin-right: 0;
-}
-
-.cards__image {
-  margin: 0 40px;
-  height: 160px;
-  width: 160px;
-  border-radius: 100%;
-
-}
-
-.cards__title {
-  margin: 43px 0 16px;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.cards__description {
-  margin: 0;
-  text-align: center;
-  line-height: 23px;
-  font-size: 18px;
-  font-weight: normal;
 }
