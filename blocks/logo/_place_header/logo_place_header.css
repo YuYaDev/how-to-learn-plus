@@ -1,7 +1,5 @@
 .logo_place_header {
-  position: absolute;
-  top: 30px;
   height: 32px;
   width: 228px;
-  margin: 0 0 0 64px;
+  margin: 30px 0 0 64px;
 }
