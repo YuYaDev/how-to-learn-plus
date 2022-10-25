@@ -5,7 +5,7 @@
   font-family: 'Inter', Arial, sans-serif;
 }
 
-a:hover {
+.transparent-link:hover {
   opacity: 0.2;
   transition: opacity 1s;
 }
