@@ -1,0 +1,7 @@
+.footer__list-item {
+  padding-bottom: 10px;
+}
+
+.footer__list-item:last-child {
+  padding-bottom: 0;
+}
